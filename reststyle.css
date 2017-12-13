@@ -1,0 +1,41 @@
+h1 {
+    color: #E1102A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.menu {
+    background-color: lightslategrey;
+}
+
+.home{
+    background-color: burlywood;
+}
+
+.type {
+    font-size: 22px;
+}
+footer {
+    font-family: Garamound;
+    font-style: bold;
+    color: #E1102A;
+    background-color: lightgray;
+}
+
+a:link {
+        font-style: italic;
+        color: #613200;
+        font-size: 20px;
+        text-decoration: none;
+}
+
+a:visited {
+    color: red;
+}
+a:hover {
+    font-weight: bold;
+}
+
+.dranks {
+    border: 1px solid black;
+}

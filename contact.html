@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home Page</title>
+</head>
+<link href="reststyle.css"
+rel="stylesheet"
+type="text/css">
+<body>
+<h1><center>Buffalo Bob's</center></h1>
+    <hr></hr>
+    &nbsp;&nbsp;&nbsp;<a href="home.html">Home</a> &nbsp;&nbsp;&nbsp; <a href="menu.html">Menu</a> &nbsp;&nbsp;&nbsp; <a href="contact.html">Contact Us</a>
+    <hr></hr>
+<form action="fake.html" method="POST">
+    <table width="70%" cellspacing="10">
+            <tr><td style="text-align: right;font-weight: bold;">Name:</td>
+                <td><input type="text" name="firstname"/></td>
+            </tr>
+            <tr><td style="text-align: right;font-weight: bold;">Email:</td>
+                <td><input type="text" name="lastname"/></td>
+            </tr>
+            <tr><td style="text-align: right;font-weight: bold;">Phone:</td>
+                <td><input type="text" name="email"/></td>
+            </tr>
+            <tr>
+                    <td style="text-align: right;font-weight: bold;">Reason for Inquiry:</td>
+                    <td><select name="reason">
+                            <option value="catering">Catering</option>
+                            <option value="private">Private Party</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="other">Other</option>
+                        </select></td>
+                    </tr>
+            <tr>
+                    <td style="text-align:right;vertical-align:top;font-weight: bold;">Additional Information:</td>    
+                    <td><textarea name="additionalinfo" rows="5" cols="20"></textarea></td>
+            </tr>
+            <tr><td style="text-align: right;font-weight: bold;">Have you been to the restaurant?</td>
+                <td><input type="radio" name="answer" value="no" checked/>No
+                    <input type="radio" name="answer" value="yes" />Yes
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;font-weight: bold;">Best days to contact you:</td>
+                <td><input type="checkbox" name="choices" value="m" />M
+                    <input type="checkbox" name="choices" value="t" />T
+                    <input type="checkbox" name="choices" value="w" />W
+                    <input type="checkbox" name="choices" value="th" />Th
+                    <input type="checkbox" name="choices" value="f" />F<br/>
+                </tr>
+        </table>
+        <center><input action="post" type="submit" value="sendRequest"></center>
+</form><br/>
+
+    <hr></hr>
+<footer>
+        <p><center>Somewhere Road, Buffalo, NY, 12345</center></p>
+        <p><center>555-555-5555</center></p>
+</footer>
+</body>
+</html>
